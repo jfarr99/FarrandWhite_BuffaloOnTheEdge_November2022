@@ -1,0 +1,54 @@
+Fri Jul 08 12:51:33 MDT 2022
+MaxEnt version 3.4.4
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_mar_final.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_mcmt_final.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_msp_final.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_mwmt_final.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_pas_final.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_propgrass_final.asc.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_proptree_final.asc.asc.asc
+Checking header of C:\Working_Dir\Env_Vars\Set_1\100kmsq_ruggedness_final.asc
+Reading samples from Bison_Training_June6.csv
+Read samples: max memory 932184064, total allocated 253231104, free 233411992, used 19819112, increment 19819112
+Extractor: max memory 932184064, total allocated 253231104, free 226805992, used 26425112, increment 6606000
+Extracting random background and sample data
+70509 points with values for all grids
+Adding samples to background in feature space
+Command line used:  environmentallayers=C:\Working_Dir\Env_Vars\Set_1 samplesfile=C:\Working_Dir\Bison_Training_June6.csv outputdirectory=C:\Working_Dir\Candidate_Models_July82022\M_0.6_F_lqp_Set_1_cal betamultiplier=0.6 autofeature=false linear=true quadratic=true product=true threshold=false hinge=false extrapolate=false doclamp=false replicates=1 replicatetype=Crossvalidate responsecurves=false jackknife=false plots=false pictures=false outputformat=logistic warnings=false visible=false redoifexists autorun
+Command line to repeat: java density.MaxEnt nowarnings noprefixes nopictures outputformat=logistic outputdirectory=C:\Working_Dir\Candidate_Models_July82022\M_0.6_F_lqp_Set_1_cal samplesfile=C:\Working_Dir\Bison_Training_June6.csv environmentallayers=C:\Working_Dir\Env_Vars\Set_1 nowarnings noaskoverwrite betamultiplier=0.6 nohinge autorun noextrapolate novisible noautofeature nodoclamp noplots
+Species: Bison
+Layers: 100kmsq_mar_final 100kmsq_mcmt_final 100kmsq_msp_final 100kmsq_mwmt_final 100kmsq_pas_final 100kmsq_propgrass_final.asc 100kmsq_proptree_final.asc.asc 100kmsq_ruggedness_final
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+pictures: false
+outputformat: logistic
+outputdirectory: C:\Working_Dir\Candidate_Models_July82022\M_0.6_F_lqp_Set_1_cal
+samplesfile: C:\Working_Dir\Bison_Training_June6.csv
+environmentallayers: C:\Working_Dir\Env_Vars\Set_1
+warnings: false
+askoverwrite: false
+betamultiplier: 0.6
+hinge: false
+autorun: true
+extrapolate: false
+visible: false
+autofeature: false
+doclamp: false
+plots: false
+
+getSamples: max memory 932184064, total allocated 253231104, free 218878088, used 34353016, increment 7927904
+Making features
+makeFeatures: max memory 932184064, total allocated 253231104, free 215664888, used 37566216, increment 3213200
+Bison: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+867 samples
+Density: max memory 932184064, total allocated 253231104, free 214343584, used 38887520, increment 1321304
+linearPredictor: max memory 932184064, total allocated 253231104, free 214343584, used 38887520, increment 0
+FeaturedSpace: max memory 932184064, total allocated 253231104, free 214343584, used 38887520, increment 0
+Sequential: max memory 932184064, total allocated 253231104, free 214343584, used 38887520, increment 0
+Initial loss: 9.282474969735382
+500: time = 0.477000 loss = 8.484811
+Resulting gain: 0.7976638185730405
+Projecting...
+Writing file C:\Working_Dir\Candidate_Models_July82022\M_0.6_F_lqp_Set_1_cal\Bison.asc
+Time since start: 1.345
+Ending

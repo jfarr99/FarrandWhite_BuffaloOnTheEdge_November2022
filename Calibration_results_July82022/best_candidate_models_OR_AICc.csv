@@ -1,0 +1,2 @@
+"Model","Mean_AUC_ratio","pval_pROC","Omission_rate_at_5%","AICc","delta_AICc","W_AICc","num_parameters"
+"M_0.1_F_lqp_Set_1",1.46701197590418,0,0.0411622276029056,33162.9632030771,0,0.999999621485708,26
