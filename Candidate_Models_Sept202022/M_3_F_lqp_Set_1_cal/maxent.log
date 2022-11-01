@@ -1,0 +1,54 @@
+Tue Sep 20 14:59:59 MDT 2022
+MaxEnt version 3.4.4
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\humanmod_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\mar_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\mcmt_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\msp_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\mwmt_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\pas_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\propgrass_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\proptree_sept20.asc
+Checking header of C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1\rugg_sept20.asc
+Reading samples from Bison_Training_June6.csv
+Read samples: max memory 932184064, total allocated 253231104, free 234732208, used 18498896, increment 18498896
+Extractor: max memory 932184064, total allocated 253231104, free 226772184, used 26458920, increment 7960024
+Extracting random background and sample data
+8078 points with values for all grids
+Adding samples to background in feature space
+Command line used:  environmentallayers=C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1 samplesfile=C:\Users\Jonathan Farr\Github\Historic_Bison\Bison_Training_June6.csv outputdirectory=C:\Users\Jonathan Farr\Github\Historic_Bison\Candidate_Models_Sept202022\M_3_F_lqp_Set_1_cal betamultiplier=3 autofeature=false linear=true quadratic=true product=true threshold=false hinge=false extrapolate=false doclamp=false replicates=1 replicatetype=Crossvalidate responsecurves=false jackknife=false plots=false pictures=false outputformat=logistic warnings=false visible=false redoifexists autorun
+Command line to repeat: java density.MaxEnt nowarnings noprefixes nopictures outputformat=logistic "outputdirectory=C:\Users\Jonathan Farr\Github\Historic_Bison\Candidate_Models_Sept202022\M_3_F_lqp_Set_1_cal" "samplesfile=C:\Users\Jonathan Farr\Github\Historic_Bison\Bison_Training_June6.csv" "environmentallayers=C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1" nowarnings noaskoverwrite betamultiplier=3.0 nohinge autorun noextrapolate novisible noautofeature nodoclamp noplots
+Species: Bison
+Layers: humanmod_sept20 mar_sept20 mcmt_sept20 msp_sept20 mwmt_sept20 pas_sept20 propgrass_sept20 proptree_sept20 rugg_sept20
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+pictures: false
+outputformat: logistic
+outputdirectory: C:\Users\Jonathan Farr\Github\Historic_Bison\Candidate_Models_Sept202022\M_3_F_lqp_Set_1_cal
+samplesfile: C:\Users\Jonathan Farr\Github\Historic_Bison\Bison_Training_June6.csv
+environmentallayers: C:\Users\Jonathan Farr\Github\Historic_Bison\Env_Vars_Sept202022\Set_1
+warnings: false
+askoverwrite: false
+betamultiplier: 3.0
+hinge: false
+autorun: true
+extrapolate: false
+visible: false
+autofeature: false
+doclamp: false
+plots: false
+
+getSamples: max memory 932184064, total allocated 253231104, free 224129664, used 29101440, increment 2642520
+Making features
+makeFeatures: max memory 932184064, total allocated 253231104, free 219261032, used 33970072, increment 4868632
+Bison: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+518 samples
+Density: max memory 932184064, total allocated 253231104, free 219261032, used 33970072, increment 0
+linearPredictor: max memory 932184064, total allocated 253231104, free 219261032, used 33970072, increment 0
+FeaturedSpace: max memory 932184064, total allocated 253231104, free 219261032, used 33970072, increment 0
+Sequential: max memory 932184064, total allocated 253231104, free 219261032, used 33970072, increment 0
+Initial loss: 8.996899596123358
+500: time = 0.460000 loss = 8.154330
+Resulting gain: 0.842569146798029
+Projecting...
+Writing file C:\Users\Jonathan Farr\Github\Historic_Bison\Candidate_Models_Sept202022\M_3_F_lqp_Set_1_cal\Bison.asc
+Ending
